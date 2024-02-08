@@ -14,8 +14,11 @@ Vi har valgt at bruge en .CSV fil om biler, en .JSON fil om Indiske firmaers sto
 
 # Description
 Vi starter med at importe pandas, numpy og seaborn.
+
 Vi valgte filer og ingestede dem ind i vores kode.
+
 Derefter kiggede vi den rå data igennem, og cleanede det som vi syntes skulle cleanes.
+
 Særligt var vi nødt til at lave en funktion der kunne lave tal strings med M og K om til floats.
 Derefter anonymiserede vi bla. Youtube-kanalernes navne ved hjælp af Faker, som vi også importerede og ændrede dets lokation til Portugal - så alle navnene blev lavet om.
 Derefter visualiserede vi dataen først med outliers og derefter uden, så vi kunne se medianen og første og tredje quartiles.
